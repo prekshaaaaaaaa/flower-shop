@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<style>
+    .header{
+        background-color: #F1E3D3;
+        height:50px;
+        text-align: right;
+        color: rgb(220, 181, 134);
+        background-color: #F1E3D3;
+        border: none;
+        text-align: right;
+        padding: 12px;
+
+    }
+    .collection,.help,.contact,.shop{
+        color: rgb(220, 181, 134);
+        background-color: #F1E3D3;
+        border: none;
+        text-align: right;
+        padding: 12px;
+
+    }
+    .head{
+        background-image: url(background1.jpg.jpg);
+        height: 350px;
+        text-align: center;
+    }
+    .para{
+        color: aliceblue;
+        text-align: center;
+        font-size: medium;
+    }
+    h1{
+        color:aliceblue;
+        text-align:center;
+        font-size: 50px;
+        padding-top:125px;
+    }
+    .button{
+        background-color: #F1E3D3;
+        border:none;
+        color:black;
+        padding:5px;
+        font:10px;
+        text-align: center;
+        width:55px;
+
+    }
+    .services{
+        color:black;
+        font-size: 50px;
+        font-family: Britannic Bold;
+        text-align: center;
+       
+    }
+    .head1{
+        background-color: #F1E3D3;
+        height: 800px;
+    }
+    .img,.head2{
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       gap:4rem;
+       
+    }
+    .para1,.para2,.para3{
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+        
+        text-emphasis-style: bold;
+        background-color: rgb(237, 213, 183);
+        width: 300px;
+        text-align: center;
+        
+    }
+    .read{
+        background-color:rgb(237, 213, 183);
+        color: black;
+        border:none;
+        font-weight: bold;
+    }
+    .pa{
+        font-family: Britannic Bold;
+        font-size: 30px;
+    }
+    .gifts{
+        background-color: hsl(208, 100%, 97%);
+        height:400px;
+        text-align: center;
+
+    }
+    h3{
+       color: rgb(198, 159, 112);
+       font-size: 20px;
+       text-align: left;
+       padding-top:30px;
+       margin-left:190px;
+    }
+    h2{
+        color: black;
+        font-size: 40px;
+        font-family:Britannic Bold;
+        text-align:left;
+        margin-top: 40px;
+        margin-left:100px;
+
+    }
+    .img1{
+        float:right;
+        height: 350px;
+        width:350px;
+        margin:50px;
+        float:top;
+
+
+    }
+    .para4{
+        font-size: 20px;
+        padding: 5px;
+        text-align: left;
+
+    }
+    .shop1{
+        color: black;
+        border:none;
+        width: 150px;
+        background-color: rgb(220, 196, 167) ;
+        height:40px;
+        text-decoration: none;
+        height: 40px;
+
+    }
+    .popular{
+        background-image: url( background2.jpg);
+        height:500px;
+    }
+    h4{
+        text-align: center;
+        color:black;
+        padding:30px;
+        font-family: Britannic Bold;
+        font-size:50px;
+    }
+    .p1{
+        border: 2px solid black;
+    }
+    .talk{
+        background-image: url(background.jpg.jpg);
+        height: 500px;
+        text-align: center;
+        font-size: 30px;
+        padding: 100px;
+        font-family: Britannic Bold;
+
+    }
+    .talk1 a{
+        border:none;
+        background-color: #F1E3D3;
+        color: #d8bc9c;
+        font-size:20px;
+        list-style: none;
+        text-decoration: none;
+        height:30px;
+
+    }
+    h6{
+        font-size: 40px;
+    }
+    .footer{
+        background-color: #dbc3a8;
+    }
+    .body{
+        color: aliceblue;
+    }
+    .para5{
+        font-size: 20px;
+    }
+    .header a{
+        text-decoration: none;
+        list-style-type: none;
+        padding: 15px;
+        text-align: center;
+    }
+    .header a:hover{
+        background-color: rgb(220, 181, 134);
+        color: #F1E3D3;
+    }
+    .header ul{
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+
+    }
+    .header li{
+        padding: 15px;
+
+    }
+    .shop2{
+        color: rgb(206, 167, 119);
+        background-color: #F1E3D3;
+        border: none;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+
+    }
+    .logo{
+        font-family: Brush Script MT;
+        float:left;
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 25px;
+        color: #d8bc9c;
+        float:top;
+    }
+</style>
+<body>
+    <div class="full">
+    <div class="container-sm"></div>
+    <div class="container-md"></div>
+    <div class="container-lg"></div>
+    <div class="container-xl"></div>
+    <div class="container-xxl"></div>
+    <div class="header">
+    
+    <ul>
+        <div class="logo">Flur</div>
+        <a href="collection.html" class="collection"> COLLECTION</a>
+        <a href="HELP.html" class="help">HELP</a>
+        <a href="contact.html" class="contact" >CONTACT</a>
+        <a href="shop.html" class="shop">SHOP</a>
+    </ul>  
+    </div>
+    <div class="head">
+       <h1>Custom Dried Flower Bouquets</h1>
+       <p class="para">Free delivery on orders over $79</p>
+       <a href="shop.html" class="shop2">SHOP</a>
+    </div>
+    <div class="head1">
+       <div class="services">Our Services </div>
+       <div class="img">
+           <img class="image" src="image1.jpg" title="Custom Bouquets" alt="Custom Bouquets" height="300"width="300"></img>
+           <img class="image" src="image2.jpg" title="Occasion Flowers" alt="Occasion Flowers" height="300"width="300"></img>
+           <img class="image" src="image3.jpg" title="Premade Bouquets" alt="Premade Bouquets" height="300"width="300"></img>
+    
+        </div>
+        
+    <div class="container-sm"></div>
+    <div class="container-md"></div>
+    <div class="container-lg"></div>
+    <div class="container-xl"></div>
+    <div class="container-xxl"></div>
+
+    <div class="head2">    
+        <div class="para1">
+            <p><p class="pa"><b>Custom Bouquets</b></p> <br>Do you have a unique taste? From your favourite flowers to the rarest flowers we <br>have all you need</p>
+            <button class="read">READ MORE</button>
+        </div>
+        <div class="para2">
+            <p><p class="pa"><b>Ocassion Flowers</b></p> <br>Favourite flowers for your special days or the perfect occupation for your next business event</p>
+            <button class="read">READ MORE</button>
+        </div>
+        <div class="para2">
+            <p><p class="pa"><b>Premade Bouquets</b></p> <br>Our florists are passionate about creating the most beautiful combinations of selected dried flowers</p>
+            <button class="read">READ MORE</button>
+             
+        </div>
+          
+    </div>
+    <img class="img1" src="image4.jpg" title="boho vase" alt="boho vase" ></img>
+</div>
+ </div>
+ 
+
+ <div class="container-xl"></div>
+ <div class="container-xxl"></div>
+
+    <div class="gifts">
+        
+        <h3>REMEMBER YOUR LOVED ONES</h3>
+        <h2>Gift Ideas That Last Longer</h2>
+        <p class="para4">Gift your loved ones a premade bouquet made with love and passion to make them feel special. Gift them flowers made by professionals  on theirs special occassions . </p>
+        <a href="shop.html" class="shop1">SHOP NOW</a>
+    </div>
+    <div class="popular">
+        <h4>SEE WHAT'S POPULAR</h4>
+        
+    </div>
+    
+    </div>
+    <div class="talk">
+        <H6>Talk To Our Staff</H6>
+        <p class= "para5">Want to order flowers for someone special? Want to make collection of flowers of your choice? Want to talk to our proffesionals for your premade Bouquets  </p>
+        <a href="contact.html" class="shop2">LETS TALK</a>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+              </ul>
+            </footer>
+          </div>
+    </div>
+</div>
+</body>
